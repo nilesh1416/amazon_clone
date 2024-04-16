@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+}
+
+.navbar{
+    height:60px;
+    background-color: #0F1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* box 1 */
+.nav-logo{
+    height: 50px;
+    width: 113px;
+    background-color: #0F1111;
+    
+}
+.logo{
+    height: 50px;
+    width: 113px;
+    
+   background-size: cover;
+    background-image:url("Project 1/amozonclone1.png");
+}
+
+.bordar{
+    border: 2px solid transparent;
+}
+.bordar:hover{
+    border:2px solid white;
+    border-radius: 4px;
+}
+/* box 2 */
+.nav-address{
+    height: 50px;
+    width: 88.64px;
+}
+.icon-loc{
+    width: 15px;
+    height:18px;
+    display: flex;
+   
+    align-items: center;
+
+}
+.add-first{
+ width:52.64px;
+ height: 14px; 
+ font-size: 0.85rem;
+ color:#CCCCCC;
+ margin-left: 15px;
+ 
+ 
+}
+.sec-add{
+    width:52.64px;
+    height: 16px;
+    font-size: 1rem;
+    
+    margin-left: 5px;
+
+}
+/* box 3 */
+.nav-search{
+    width: 656.31px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.nav-search:hover{
+    border: 4px solid orange;
+    border-radius: 8px;
+}
+.option{
+    height: 40px;
+    width:45px ;
+    color: #0F1111;
+    background-color:#f3f3f3 ;
+    font-size: 14px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border:none;
+
+}
+.search-bar{
+    height: 38px;
+    width:100% ;
+    border: none;
+    font-size: 16px;
+
+}
+.search-icon{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius:4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1rem;
+
+}
+
+.lan{
+width: 73.38px;
+height: 50px;
+font-size: 14px;
+color: #d6d6d6;
+display: flex;
+align-items: center;
+
+}
+.flag{
+    width: 18.6px;
+    height: 16.2px;
+}
+.select-lan{
+    width: 14px;
+    height: 18.38px;
+    font-size: 14px;
+
+}
+
+.nav-sign{
+    width: 131.53px;
+    height: 50px;
+    color:#d6d6d6;
+    
+
+}
+
+span{
+    width:70.41px ;
+    height: 14px;
+    font-size: .7rem;
+}
+.line2{
+    width: 113.53px;
+    height: 15px;
+font-size: .85rem;
+font-weight: 700;
+}
+
+.nav-order{
+    width: 76.95px;
+    height: 50px;
+}
+
+/* last nav- box */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+   
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.pannel{
+    height: 40px;
+    background-color:#232f3e;
+    display: flex;
+    color: white;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.all-pannel{
+    height: 36px;
+    width: 60px;
+   font-size: 0.9rem;
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+.nav-xshop p{
+    display: inline;
+    margin-left: 15px;
+}
+.nav-xshop{
+    width: 90%;
+    
+   
+}
+.nav-smslot{
+    height: 40px;
+}
+/* Hero section */
+.hero-section{
+    background-size :97%;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-image: url("Project 1/61Lz+shgb8L._SX3000_.jpg");
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    background-position-x: center;
+    
+
+}
+
+.hero-msg{
+    background-color: white;
+    height:40px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .85rem;
+    margin-bottom: 20px;
+
+}
+.hero-msg a{
+    color: #007185;
+    text-decoration-line: none;
+
+
+}
+.hero-section .box1{
+    display: block;
+}
+
+ .shop-section{
+    width: 95%;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(226,229,231,.7);
+}
+    
+
+ 
+ .box{
+    width: 22%;
+    background-color: white;
+}
+h2{
+    font-size: 21px;
+    color: #0F1111;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box-img{
+    height: 70%;
+    width: 85%;
+    margin-left: 20px;
+     background-size: 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #0F1111;
+}
+.box span{
+    margin: 20px;
+    text-align: end;
+    font-size: 13px;
+    color: #007185;
+    text-wrap: balance;
+}
+.shop-section2{
+    width: 95%;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(226,229,231);
+   
+    margin-left: 38px;
+}
+.free1{
+    height: 30px;
+    width: 100%;
+    background-color: #e2e5e7;
+}
+.shop-section3{
+    width: 100%;
+    height:280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(226,229,231);
+;}
+.box-img2{
+    height: 90%;
+    width: 100%;
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #0F1111;
+background-color: white;
+margin-left: 20px;}
+
+.shop-section3 h2{
+    background-color: white;
+    text-align: left;
+    font-size: 21px;
+    margin-left: 20px;
+}
+
+/* Footer pannel */
+
+.f-pannel1{
+    height: 50px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: .85rem;
+}
+
+.f-pannel2{
+    background-color: #232f3e;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 25px;
+}
+ul p{
+    margin-bottom: 15px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    color: #dddddd;
+    margin-top: 10px;
+}
+/* F-pannel3 */
+.f-pannel3{
+    height: 70px;
+    background-color: #232f3e;
+    color:white;
+    border-top: 0.5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo2{
+    height: 50px;
+    width: 113px;
+    
+   background-size: cover;
+    background-image:url("Project 1/logo2.png");
+}
+/* .f-pannel4 */
+.f-pannel4{
+    height: 80px;
+    color: #dddddd;
+    background-color: #131A22;
+    font-size: .78rem;
+}
+.pages{
+    text-align: center;
+    padding-top: 30px;
+}
+.copyright{
+    text-align: center;
+}
